@@ -19,7 +19,7 @@ body {
     background-size: cover;
     height: 95vh;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%)
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%) /*Corte do header*/
 }
 
 .logo-box {
