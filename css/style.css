@@ -7,10 +7,11 @@
 
 body {
     font-family: 'Lato', sans-serif;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.7;
-    color: #777;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    
+    color: white;
     /* padding: 20px; */
     display: flex;
     width: 100%;
@@ -29,57 +30,68 @@ body {
 
 .logo-box {
     display: flex;
-    width: 70vw;
+    width: 20vw;
     height: 120px;
 }
 .logo-top {
-    width: 120px;
+    width: 100px;
     height: 60px;
-    margin: 10px 5px 0;
+    margin-left: 40px;
+    margin-top: 15px;
 }
 
 .menu-box {
     display: flex;
-    flex-direction: row;
-    width: 40vw;
-    height: 100px;
+    width: 60w;
+    height: 50px;
     align-content: flex-end;
+    margin-top: 6vh;
+    margin-left: 35%;
 }
 
-.menu-list {
+.main-nav {
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
-.menu-list li{
-    padding: 1.2em;
-    color: #ccc;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.2em;
-    letter-spacing: 0.8;
-    list-style: none;
-}
 
+.main-nav li {
+    padding: 15px;
+    list-style: none;
+    
+}
+.main-nav li a:link, .main-nav li a:visited {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom.2s;
+    padding: 8px 0;
+}
+.main-nav li a:hover, .main-nav li a:active {
+    border-bottom: 2px solid white;
+    
+}
 
 .box-text {
     width: 100%;
     height: auto;
-    margin-top: 20%;
+    margin-top: 15%;
     position: absolute;
 }
 
 .box-text p{
     font-size: 3em;
-    text-align: center;
+    text-align: left;
     color: #ecf0f1;
-    letter-spacing: 6;
-}
-.btn-box {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: auto;
-    align-content: center;
-    justify-content: center;
-    margin-top: -17%;
+    letter-spacing: 3;
+    margin-left: 60px;
 }
 
+.btn-box {
+    width: 20vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
