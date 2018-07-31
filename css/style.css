@@ -27,24 +27,38 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%) /*Corte do header*/
 }
 
-.nav-wrapper {
-    background-color: #297fb9;
-
-}
-
-.nav-wrapper a {
-    font-size: 18px;
-}
-.brand-logo img {
-    margin-top: 5px;
-}
 .logo-box {
-    position: absolute;
-    top: 40px;
-    left: 40px;
+    display: flex;
+    width: 70vw;
+    height: 120px;
+}
+.logo-top {
+    width: 120px;
+    height: 60px;
+    margin: 10px 5px 0;
 }
 
-.logo{height: 35px;}
+.menu-box {
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+    height: 100px;
+    align-content: flex-end;
+}
+
+.menu-list {
+    display: flex;
+    flex-direction: row;
+}
+.menu-list li{
+    padding: 1.2em;
+    color: #ccc;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 0.8;
+    list-style: none;
+}
+
 
 .box-text {
     width: 100%;
@@ -68,6 +82,4 @@ body {
     justify-content: center;
     margin-top: -17%;
 }
-
-.waves-effect  {background-color: #297fb9;}
 
